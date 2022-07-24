@@ -13,7 +13,6 @@ class ScoreBoard(Turtle):
         self.goto(x=0, y=270)
         self.update_scoreboard()
 
-
     def update_scoreboard(self):
         self.write("Liczba punktow {}".format(self.points), move=False, align=ALIGNMENT, font=FONT)
 
